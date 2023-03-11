@@ -9,21 +9,84 @@ import java.util.Arrays;
  * @Version 1.0
  */
 public class sorting {
-  public void main(String[] args){
-    int[] arr = {5,3,8,9,4,2,33,69,2,100};
-    insertionSort(arr);
-    System.out.println(Arrays.toString(arr));
+  public static void main(String[] args){
+    int[] arr = {555,3,8,9,4,2,33,66,100};
+    selectSort(arr);
+    System.out.println("希尔排序" +Arrays.toString(arr));
   }
 
+
+  /**
+   * 插入排序 has time complexity O(N^2),best O(N), space complexity O(1)
+   * 学习网站：https://blog.csdn.net/weixin_50886514/article/details/119045154?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167845083516800182175508%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167845083516800182175508&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-119045154-null-null.142^v73^control,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=%E6%8E%92%E5%BA%8F&spm=1018.2226.3001.4187
+   * @param arr
+   */
   public static void insertionSort(int[] arr){
-    for (int i = 0; i < arr.length -1; ++i){
-      int end = i;
-      int item = arr[end+1];
-      while (item < arr[end]){
-        --end;
+    for (int i = 0; i < arr.length -1; i++){
+      int end = i; // 0
+      int item = arr[end+1];// 1, 3
+      // 单趟排序
+      while (end >= 0 && item < arr[end]  ){
+        // PUSH NUMBER BACK
+        arr[end+1] = arr[end];
+        end--;
       }
       arr[end+1] = item;
+    }
+  }
+
+  public static void shellSort(int[] arr){
+    int gap = arr.length;
+    while(gap>1){
+      gap = gap/2;
+      for (int i = 0; i<arr.length-gap; i++){
+        int end = i;
+        int tem = arr[end+gap];
+        // 单趟排序，每个元素比较，tem小于end，取出end，end+gap位置改为end的数，end调为上一个元素
+        // 直到大于为止，不动end+gap，改为tem值，即为正确
+        while (end>=0 && tem<arr[end]){
+          arr[end+gap] = arr[end];
+          end -= gap;
+        }
+        arr[end+gap] = tem;
+      }
+    }
+  }
+
+  public static void selectSort(int[] arr){
+    int begin = 0;
+    int end = arr.length-1;
+    while (begin<end){
+      int maxi = begin;
+      int mini = begin;
+      for (int i = begin; i<=end; i++){
+
+        if (arr[i]<arr[mini]){
+          mini = i;
+        }
+        if (arr[i]>arr[maxi]){
+          maxi = i;
+        }
+      }
+
+      System.out.println(Arrays.toString(arr));
+      swap(arr,mini,begin);
+      if (maxi == begin){
+        maxi = mini;
+      }
+      swap(arr,maxi,end);
+      ++begin;
+      --end;
 
     }
   }
+
+  public static void swap(int[] arr, int i, int j) {
+    int temp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = temp;
+  }
+
 }
+
+
