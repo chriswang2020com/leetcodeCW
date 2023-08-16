@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="cw">
+      <change afterPath="$PROJECT_DIR$/src/二叉树/binaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/StackStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/StackStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/sorting/sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/sorting/sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arraylist/removeElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraylist/removeElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/projects/Java/leetcodeCW",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -57,7 +65,9 @@
       <workItem from="1678220922476" duration="327000" />
       <workItem from="1678221383225" duration="2044000" />
       <workItem from="1678489745046" duration="11817000" />
-      <workItem from="1691112870301" duration="2018000" />
+      <workItem from="1691112870301" duration="2324000" />
+      <workItem from="1691115423566" duration="2334000" />
+      <workItem from="1692158924268" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -66,11 +76,23 @@
       <option name="project" value="LOCAL" />
       <updated>1678496251724</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cw">
+      <option name="closed" value="true" />
+      <created>1691115305747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691115305747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cw" />
