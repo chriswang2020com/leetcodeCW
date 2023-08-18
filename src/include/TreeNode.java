@@ -16,28 +16,38 @@ public class TreeNode {
     /**
      * Generate a binary tree with an array
      * @param arr
-     * @return
+     * @return root
      */
     public static TreeNode arrToTree(Integer[] arr) {
-        TreeNode root = new TreeNode(arr[0]);
-        Queue<TreeNode> queue = new LinkedList<TreeNode>() {{ add(root); }};
-        int i = 1;
-        while(!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            if(arr[i] != null) {
-                node.left = new TreeNode(arr[i]);
-                queue.add(node.left);
-            }
-            i++;
-            if(arr[i] != null) {
-                node.right = new TreeNode(arr[i]);
-                queue.add(node.right);
-            }
-            i++;
-        }
-        return root;
+        if (arr == null || arr.length == 0) return null;
+        return constructTree(arr, 0);
     }
 
+    private static TreeNode constructTree(Integer[] arr, int i) {
+        // Base case: if index is out of bounds or the value is null
+        if (i >= arr.length || arr[i] == null) return null;
+
+        // Create a new TreeNode
+        TreeNode node = new TreeNode(arr[i]);
+
+        // Recursively build the left and right subtrees
+        node.left = constructTree(arr, 2*i + 1);
+        node.right = constructTree(arr, 2*i + 2);
+
+        return node;
+    }
+    public static void printPreOrder(TreeNode root) {
+        if (root == null) return;
+
+        // Print the current node's value
+        System.out.print(root.val + " ");
+
+        // Recursively print the left subtree
+        printPreOrder(root.left);
+
+        // Recursively print the right subtree
+        printPreOrder(root.right);
+    }
     /**
      * Serialize a binary tree to a list
      * @param root
