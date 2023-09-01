@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="cw">
+      <change afterPath="$PROJECT_DIR$/src/binary/validBST/isBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/validBST/isSameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/validBST/isSymmetric101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/validBST/recoverTree99.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/binary/validBST/rightSideView199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcodeCW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcodeCW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/binary/validBST/validateBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary/validBST/validateBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary/validBST/recoverTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/include/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/include/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +54,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -67,7 +73,11 @@
       <workItem from="1691112870301" duration="2324000" />
       <workItem from="1691115423566" duration="2334000" />
       <workItem from="1692158924268" duration="12730000" />
-      <workItem from="1692326712100" duration="2994000" />
+      <workItem from="1692326712100" duration="6731000" />
+      <workItem from="1692406750044" duration="4442000" />
+      <workItem from="1693192153562" duration="2296000" />
+      <workItem from="1693371424258" duration="7731000" />
+      <workItem from="1693441989604" duration="7759000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -108,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692170867278</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cw">
+      <option name="closed" value="true" />
+      <created>1692335954595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692335954595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

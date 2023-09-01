@@ -47,6 +47,20 @@ public class TreeNode {
 
         // Recursively print the right subtree
         printPreOrder(root.right);
+
+    }
+
+    public static void printInOrder(TreeNode root) {
+        if (root == null) return;
+
+        // Recursively print the left subtree
+        printInOrder(root.left);
+
+        // Print the current node's value
+        System.out.print(root.val + " ");
+
+        // Recursively print the right subtree
+        printInOrder(root.right);
     }
     /**
      * Serialize a binary tree to a list
