@@ -4,11 +4,12 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread t1 = new myThread();
-        t1.setName("test");
         t1.start();
+        t1.setName("test");
         System.out.println(Thread.currentThread().getName());
+
     }
 }
 
