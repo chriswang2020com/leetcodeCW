@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="cw">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redis/redisBasic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/systemDesign/系统设计.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwCollections/threading/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cwCollections/threading/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwCollections/threading/并发编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/cwCollections/threading/并发编程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/myThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/并发编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/并发编程.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -137,7 +136,12 @@
       <workItem from="1703044724011" duration="6365000" />
       <workItem from="1703056254256" duration="216000" />
       <workItem from="1703226098790" duration="4949000" />
-      <workItem from="1704264657630" duration="5134000" />
+      <workItem from="1704264657630" duration="5718000" />
+      <workItem from="1704430527893" duration="3329000" />
+      <workItem from="1704626100741" duration="1638000" />
+      <workItem from="1704686647455" duration="4813000" />
+      <workItem from="1704774893640" duration="1678000" />
+      <workItem from="1704862362410" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -250,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702882671525</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="cw">
+      <option name="closed" value="true" />
+      <created>1704270954012</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704270954012</updated>
+    </task>
+    <task id="LOCAL-00016" summary="cw">
+      <option name="closed" value="true" />
+      <created>1704271013359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704271013359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
