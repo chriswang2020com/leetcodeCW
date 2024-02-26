@@ -16,6 +16,10 @@ public class runDemo {
         Thread t01 = new Thread(myRun, "线程01");
         Thread t02 = new Thread(myRun, "线程02");
         Thread t03 = new Thread(myRun, "线程03");
+        new Thread(() -> {
+            System.out.println("读取的数据：");
+        }).start();
+
         //开启线程
         t01.start();
         t02.start();
