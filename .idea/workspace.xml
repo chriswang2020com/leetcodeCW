@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="cw">
+      <change afterPath="$PROJECT_DIR$/src/a面经/a汇总.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a面经/小米日常.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a面经/理想实习.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a面经/阿里云实习.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/MyRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/myThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/myThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/并发编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/并发编程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwCollections/threading/runDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cwCollections/threading/runDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cwCollections/threading/并发编程.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/cwCollections/threading/并发编程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/mysql面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/mysql面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/并发面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/并发面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kafka/rocketmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/kafka/rocketmq.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/myMarkDown&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/zfile&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,7 +69,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -90,7 +89,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -153,7 +152,9 @@
       <workItem from="1708659053536" duration="9251000" />
       <workItem from="1708780146479" duration="5880000" />
       <workItem from="1708842512345" duration="9010000" />
-      <workItem from="1708929821668" duration="4143000" />
+      <workItem from="1708929821668" duration="11454000" />
+      <workItem from="1709001915892" duration="10170000" />
+      <workItem from="1709088556799" duration="16799000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -290,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704874390237</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="cw">
+      <option name="closed" value="true" />
+      <created>1708934223710</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1708934223710</updated>
+    </task>
+    <task id="LOCAL-00019" summary="cw">
+      <option name="closed" value="true" />
+      <created>1708934316946</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1708934316946</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
