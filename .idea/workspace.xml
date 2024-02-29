@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="cw">
-      <change afterPath="$PROJECT_DIR$/src/a面经/a汇总.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a面经/小米日常.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a面经/理想实习.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a面经/阿里云实习.md" afterDir="false" />
+    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a并发/mysql面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/mysql面试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a并发/并发面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/并发面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kafka/rocketmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/kafka/rocketmq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a面经/a汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a面经/a汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a面经/小厂一面.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a面经/小厂一面.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +151,9 @@
       <workItem from="1708842512345" duration="9010000" />
       <workItem from="1708929821668" duration="11454000" />
       <workItem from="1709001915892" duration="10170000" />
-      <workItem from="1709088556799" duration="16799000" />
+      <workItem from="1709088556799" duration="26299000" />
+      <workItem from="1709139382256" duration="602000" />
+      <workItem from="1709179552507" duration="6297000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -307,7 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708934316946</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="cw">
+      <option name="closed" value="true" />
+      <created>1709108303092</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709108303092</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cw">
+      <option name="closed" value="true" />
+      <created>1709108327540</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709108327540</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

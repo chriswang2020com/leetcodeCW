@@ -4,7 +4,17 @@
 > 我完成了什么
 > 并发，锁，部分mysql，rocketmq
 
+死锁实战：https://blog.csdn.net/cooper20/article/details/110238195
+索引失效：https://mp.weixin.qq.com/s/mwME3qukHBFul57WQLkOYg
+优化总结：https://cloud.tencent.com/developer/article/1921568
+mysql慢查询, 索引失效：https://cloud.tencent.com/developer/article/2350545
+sharding:https://zhuanlan.zhihu.com/p/610182326
 
+
+### 难的问题
+1. 如何一次性导入1000w数据
+2. mysql预防死锁：MySQL锁定：死锁及其避免方法
+3. 
 
 MySQL 索引
 补充：
@@ -95,7 +105,7 @@ MySQL 性能优化
 - 监听binlog
 10. 常⻅的数据库优化⽅法有哪些？
 
-
+死锁实战：https://blog.csdn.net/cooper20/article/details/110238195
    MySQL 锁
    表级锁和⾏级锁有什么区别？
    哪些操作会加表级锁？哪些操作会加⾏级锁？请简单举例说⼀下。
