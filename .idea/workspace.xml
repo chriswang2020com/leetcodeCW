@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/java面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/java面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/jvm面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/jvm面试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a并发/mysql面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/mysql面试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a并发/并发面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/并发面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/网络面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/网络面试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a面经/a汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a面经/a汇总.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a面经/小厂一面.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a面经/小厂一面.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +155,8 @@
       <workItem from="1709001915892" duration="10170000" />
       <workItem from="1709088556799" duration="26299000" />
       <workItem from="1709139382256" duration="602000" />
-      <workItem from="1709179552507" duration="6297000" />
+      <workItem from="1709179552507" duration="7119000" />
+      <workItem from="1709278310137" duration="19006000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -322,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709108327540</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="pushed from idea">
+      <option name="closed" value="true" />
+      <created>1709201766447</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709201766447</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +345,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cw" />
-    <option name="LAST_COMMIT_MESSAGE" value="cw" />
+    <MESSAGE value="pushed from idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushed from idea" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

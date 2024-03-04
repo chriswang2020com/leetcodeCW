@@ -14,7 +14,7 @@ sharding:https://zhuanlan.zhihu.com/p/610182326
 ### 难的问题
 1. 如何一次性导入1000w数据
 2. mysql预防死锁：MySQL锁定：死锁及其避免方法
-3. 
+3. mysql索引失效
 
 MySQL 索引
 补充：

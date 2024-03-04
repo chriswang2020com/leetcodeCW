@@ -16,23 +16,13 @@ Application ClassLoader ，主要负责加载当前应用的classpath下的所�
 User ClassLoader ， 用户自定义的类加载器,可加载指定路径的class文件
 ```
 
-虚拟机/java栈：
+# 虚拟机/java栈：
+- 一个线程可以有多个栈帧
 - 由线程私有，栈帧中有方法，不需要进行垃圾回收。嵌套方法太多就会导致stack overflow。
 - 线程太多会out of memory，没有内存创虚拟机栈
 
-局部变量表： slot对应的局部变量，记录局部变量在哪个slot中，10和20的位置
 
-操作数栈：operand stack执行字节码指令用来计算，存放10和20
-
-堆：所有对象和数组都应该在堆中。创建的对象不会被回收需要gc
-
-新生代：eden，s0，s1。回收后剩下的存活1次，如果eden满了，进行young gc放入s0。下次gc放s1，反反复复。
-老年代：如果经历15次垃圾回收，就会放入老年代
-
-垃圾回收类型
-1. young gc新生代，old gc老年代，full gc整堆回收
-
-
+## 如何判定是否要清除？
 可达性分析：https://blog.csdn.net/qq_32099833/article/details/109253339
 - GC Roots找到相关的存活对象，a.next = b
 - gc root:
@@ -57,5 +47,18 @@ NullPointerException、OutOfMemoryError） ，系统类加载器。
 
 8、除了这些固定的GCRoots集合以外，根据用户所选用的垃圾收集器以及当前回收的内存区域不同，还可以有其他对象“临时性”地加入，共同构成完整GC Roots集合。比如：分代收集和局部回收（Partial GC）。
 回收算法
-- 标记清除，内存不足就STW
 
+## 判定完毕如何清除？
+三大类：复制(复制一份再清除，碎片少，内存需求高，效率高stw少)，标记整理(移动再清除，效率低要算)，标记清除(最简单，碎片多，效率低)
+分代收集：针对不同区用不同算法
+
+
+
+## 具体案例
+CMS：标记清除，低暂停，stw时间短，老年代，低暂停
+Serial Old：老年代，stw，标记整理
+parallel GC：新生代，stw，复制算法
+G1：整堆，分区算法，把eden，old做成多个region，eden满就清eden，mixedgc老年代占比高，回收新生代，大对象。fullgc：如果mixed复制算法内存不够，触发stw，用一次serialgc，标记整理算法。
+ZGC：整堆，分页算法
+
+jvm面试
