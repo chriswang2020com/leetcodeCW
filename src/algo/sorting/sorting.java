@@ -1,6 +1,6 @@
 package sorting;
 
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * ClassName: sorting Package sorting Description Author zwang2654
@@ -10,11 +10,48 @@ import java.util.Arrays;
  */
 public class sorting {
   public static void main(String[] args){
-    int[] arr = {555,3,8,9,4,2,33,66,100};
-    selectSort(arr);
-    System.out.println("希尔排序" +Arrays.toString(arr));
+    int[] arr = {10,8,9,7,6,5,4,3,2,1};
+    heapSort(arr);
+    System.out.println("堆排" +Arrays.toString(arr));
   }
 
+  static void quickSort(int[] arr){
+    quickSort(arr, 0, arr.length - 1);
+  }
+
+  static void quickSort(int[] arr, int left, int right){
+    if (left > right) return;
+    int l = left, r = right , pivot = arr[left];
+    while(l < r){
+      while (l < r && arr[r] >= pivot) r--;
+      while (l < r && arr[l] <= pivot) l++;
+      swap(arr, l, r);
+    }
+    swap(arr, l, left);
+    quickSort(arr, left, l-1);
+    quickSort(arr, l+1, right);
+  }
+
+  private static void swap(int[] arr, int i, int j){
+    int tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
+  }
+
+  public static void heapSort(int[] array) {
+    // 创建一个最小堆
+    PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+    // 将数组元素依次加入最小堆
+    for (int num : array) {
+      minHeap.offer(num);
+    }
+
+    // 依次从最小堆中取出最小值，覆盖原数组元素
+    for (int i = 0; i < array.length; i++) {
+      array[i] = minHeap.poll();
+    }
+  }
 
   /**
    * 插入排序 has time complexity O(N^2),best O(N), space complexity O(1)
@@ -53,7 +90,7 @@ public class sorting {
     }
   }
 
-  public static void selectSort(int[] arr){
+   static void selectSort(int[] arr){
     int begin = 0;
     int end = arr.length-1;
     while (begin<end){
@@ -81,11 +118,6 @@ public class sorting {
     }
   }
 
-  public static void swap(int[] arr, int i, int j) {
-    int temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-  }
 
 }
 

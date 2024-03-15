@@ -30,6 +30,8 @@ public class types {
 
         // 5. 使用`StringBuilder`或`StringBuffer`的`toString`方法
         StringBuilder stringBuilder = new StringBuilder("Hello");
+        StringBuffer stringBuffer = new StringBuffer("Hello2");
+        System.out.println("stringBuffer: " + stringBuffer);
         stringBuilder.append("加在这里");
         stringBuilder.insert(1, "插在这里");
         String strFromBuilder = stringBuilder.toString();

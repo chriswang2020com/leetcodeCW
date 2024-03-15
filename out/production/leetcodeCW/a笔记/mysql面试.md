@@ -4,6 +4,17 @@
 > 我完成了什么
 > 并发，锁，部分mysql，rocketmq
 
+
+java线程池８个参数。
+线程创建方法。
+乐观锁实现方法：cas, 版本号解决aba问题
+acid
+原子性：事务回滚
+一致性：
+
+怎么定位慢查询
+
+
 死锁实战：https://blog.csdn.net/cooper20/article/details/110238195
 索引失效：https://mp.weixin.qq.com/s/mwME3qukHBFul57WQLkOYg
 优化总结：https://cloud.tencent.com/developer/article/1921568
@@ -84,7 +95,7 @@ MySQL 性能优化
 2. MySQL 如何存储 IP 地址？
 3. 如何分析 SQL 的性能？
 - explain，慢sql
-4. 有哪些常⻅的 SQL 优化⼿段？
+4. ## 有哪些常⻅的 SQL 优化⼿段？
 - 先分析，慢sql，profiling查看每一步时间，performance schema
 - 外部：减少查询压力，线程池控制并发数量
 - 语句：用子查询，join延迟关联分页优化，多用覆盖索引减少回表，顺序io

@@ -4,19 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea">
+    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea 3/4/2024">
+      <change afterPath="$PROJECT_DIR$/src/algo/aInterview/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a笔记/a项目面试.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a笔记/java面试.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a笔记/冷门技术/spring.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a笔记/消息队列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/网络/tcp.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a并发/java面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/java面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a并发/jvm面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/jvm面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a并发/mysql面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/mysql面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a并发/并发面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/并发面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a并发/网络面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a并发/网络面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a并发/mysql面试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a并发/并发面试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/java-runtime-data-areas-jdk1.8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/kafka/rocketmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/kafka/rocketmq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/types.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/sorting/sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/sorting/sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/systemDesign/系统设计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algo/sorting/sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/sorting/sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/java面试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/jvm结构.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pdfs/jvm结构.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/jvm面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/jvm面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/metaspace空间.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pdfs/metaspace空间.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/mysql面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/mysql面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/并发面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/并发面试.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a并发/网络面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/网络面试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/a面经/a汇总.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a面经/a汇总.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cwCollections/dataStru/types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cwCollections/dataStru/types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cwCollections/threading/java-runtime-data-areas-jdk1.8.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pdfs/java-runtime-data-areas-jdk1.8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kafka/rocketmq.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/kafka/rocketmq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/systemDesign/系统设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/Atodo笔记.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +101,7 @@
       <recent name="D:\projects\javabasics\leetcodeCW\src\cwCollections\OOP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\javabasics\leetcodeCW\resources\pdfs" />
       <recent name="D:\projects\javabasics\leetcodeCW\src\cwCollections\threading" />
     </key>
   </component>
@@ -88,7 +112,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Application.sorting">
+    <configuration name="sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.sorting" />
+      <module name="leetcodeCW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -103,6 +140,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.sorting" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -157,6 +199,19 @@
       <workItem from="1709139382256" duration="602000" />
       <workItem from="1709179552507" duration="7119000" />
       <workItem from="1709278310137" duration="19006000" />
+      <workItem from="1709519541764" duration="12450000" />
+      <workItem from="1709605110318" duration="18081000" />
+      <workItem from="1709690147236" duration="17842000" />
+      <workItem from="1709778026405" duration="5625000" />
+      <workItem from="1709798200879" duration="13313000" />
+      <workItem from="1709862774084" duration="13053000" />
+      <workItem from="1710001304414" duration="2960000" />
+      <workItem from="1710125594350" duration="229000" />
+      <workItem from="1710126211958" duration="29873000" />
+      <workItem from="1710228831782" duration="22590000" />
+      <workItem from="1710335233447" duration="8968000" />
+      <workItem from="1710388903927" duration="18485000" />
+      <workItem from="1710484268159" duration="9826000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -333,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709201766447</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pushed from idea 3/4/2024">
+      <option name="closed" value="true" />
+      <created>1709519640142</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709519640142</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +409,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cw" />
     <MESSAGE value="pushed from idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushed from idea" />
+    <MESSAGE value="pushed from idea 3/4/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushed from idea 3/4/2024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
