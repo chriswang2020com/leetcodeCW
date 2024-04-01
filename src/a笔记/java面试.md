@@ -4,14 +4,20 @@ Java 集合框架
 3. ⽐较 HashSet、LinkedHashSet 和 TreeSet 三者的异同
 4. HashMap 和 Hashtable 的区别？HashMap 和 HashSet 区别？HashMap 和 TreeMap 区
    别？
-5. HashMap 的底层实现
-- 结合链表和数组的优点，快插快找
-- 拉链法
-- 如果当前位置存在元素的话，就判断该元素与要存入的元素的 hash 值以及 key 是否相同，如果相同的话，直接覆盖，不相同就通过拉链法解决冲突。
+5. HashMap 的底层实现：https://tech.meituan.com/2016/06/24/java-hashmap.html
+> 结合链表和数组的优点，快插快找
+> 开放寻址法：找下一个空的数组下标存储
+> 链式寻址法：链表
+> 再hash法：类似布隆过滤器
+> 如果当前位置存在元素的话，就判断该元素与要存入的元素的 hash 值以及 key 是否相同，如果相同的话，直接覆盖，不相同就通过拉链法解决冲突。
 6. HashMap 的⻓度为什么是 2 的幂次⽅
+> 因为扩容是2倍的
 7. ConcurrentHashMap 和 Hashtable 的区别？
+> 用到了分段锁，线程安全且并发更高
+> 初始16个segment，每个segment是一个hashmap数组
+> 1.8之后改为node数组+红黑树，跟hashmap一样，相当于每个hashmap节点都能加锁。
 8. ConcurrentHashMap 线程安全的具体实现⽅式/底层具体实现
-
+9. 什么是treeMap
 
 重写重载，
 Java 基础
@@ -32,6 +38,7 @@ Java 基础
 12. 内部类了解吗？匿名内部类了解吗？
 13. BIO,NIO,AIO 有什么区别?
 - 如何写一个IO流：https://www.cnblogs.com/robothy/p/14235598.html
+- 零拷贝速通：https://xie.infoq.cn/article/a34cf4d2c6556d6c81be17303
 > 用户空间（User space） 和 内核空间（Kernel space ）
 > 通过系统调用访问内核空间，只能通过操作系统才能访问。
 > ## 两个步骤。1. 准备数据，磁盘到内核缓冲区。2.拷贝数据，内核缓冲区到用户区
@@ -40,6 +47,6 @@ Java 基础
 > NIO 属于多路复用。发起select调用，等数据准备好再发起read调用。selector多路复用器，同时链接多个客户端。
 > > BUFFER缓冲区链接channel，capacity存放大小，limit读写数据的边界，position下一个可以读写的位置。
 > > buffer.flip，clear负责position0切换为读或者写。
-> > dma控制器：代替cpu，把硬盘读到用户态中。
-> > 零拷贝技术：mmap用户空间和系统空间共享，sendfile直接内核发到socket缓冲，
+> > dma控制器：负责把硬盘读到内核态缓冲区
+> > 零拷贝技术：mmap用户空间和系统空间共享，sendfile直接内核发到socket缓冲，不能修改数据    
 > AIO 异步，read之后不阻塞，拷贝完回调。就是BIO的升级款。

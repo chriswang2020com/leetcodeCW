@@ -1,10 +1,15 @@
 ## 自我介紹
-面试官，您好！我叫王正宏。大学时间我主要利用课外时间学习了 Java 后端开发相关的知识。在校期间参与了一个网盘社区的开发，我在其中主要担任后端开发。
-
+> 面试官，您好！我叫王正宏。大学时间我主要利用课外时间学习了 Java 后端开发相关的知识。在校期间参与了一个网盘社区的开发，我在其中主要担任后端开发。
+> 在这个项目中核心用到了websocket协议实现全双工双向通讯，实现了本地和网盘的实时同步。
+>  jwt
+> 外部覆盖springboot
 遇到的问题以及如何解决
 
+分库分表文章：https://ost.51cto.com/posts/11624
+sharding-db实战好文：https://www.cnblogs.com/makemylife/p/17165226.html
+
 面试提问
-1. sharding-jdbc分库分表如何实现
+1. sharding-jdbc分库分表如何实现。 答：- 根据原子个数和酸性值进行分表，查询时优先查原子个数 。雪花算法hash取模全局id，记录slot，查询也是一样。
 2. MinIO如何分片上传
 3. WebSocket原理 https://zhuanlan.zhihu.com/p/161661750   
 - 推荐！！！ http://www.52im.net/thread-331-1-1.html 
@@ -12,17 +17,24 @@
 - 后端 https://cloud.tencent.com/developer/article/2346495
 
 4. 如何接入支付宝支付业务
-5. completableFuture如何优化：https://tech.meituan.com/2022/05/12/principles-and-practices-of-completablefuture.html
+5. completableFuture如何优化：
+- 任务编排建立依赖关系：异步获取用户权限下载次数等信息，下载内容，商品详情。若符合，则把下载内容发送到客户端。
+- https://tech.meituan.com/2022/05/12/principles-and-practices-of-completablefuture.html
 - 线程池实战：https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html
 6. Hyperloglog数据结构：统计概率，https://www.yuque.com/snailclimb/tangw3/ylfks98yh4cd48rr
 7. RocketMQ如何保证一致性：
 8. redisson分布式锁
 9. spring bean的周期，加载机制
 10. RBAC模型，认证权限
-11. 削峰操作：https://cloud.tencent.com/developer/article/1629610，https://blog.csdn.net/qq_36135928/article/details/121146631
+11. 削峰操作：
+- 在消息队列不拥堵的情况下http连接不关闭，在拥堵情况下异步返回。
+- https://blog.csdn.net/qq_36135928/article/details/121146631
+- https://cloud.tencent.com/developer/article/1980129
 12. ali支付：https://juejin.cn/post/6844903782749306894
 13. 设计模式
-14. 分布式算法。
+14. 分布式算法。分布式id，分布式锁
+15. 事务问题？ - cas乐观锁解决超卖问题
+16. websocket断开如何处理。
 
 # websocket
 > 1. 如何进入websocket，connection：upgrade放在header里，升级http。

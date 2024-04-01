@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new myThread();
         t1.start();
-        t1.setName("test");
+        t1.setName("testEnv");
         System.out.println(Thread.currentThread().getName());
 
     }

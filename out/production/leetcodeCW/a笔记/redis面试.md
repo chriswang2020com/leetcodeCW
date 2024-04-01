@@ -1,5 +1,17 @@
 redis数据结构：https://blog.csdn.net/shark_chili3007/article/details/104171986
-redis事务？布隆过滤器。缓存机制读写穿透，zset，
+todo：
+> redis事务？布隆过滤器。缓存机制读写穿透，
+> zset，ziplist 已完成
+> redis健壮性
+> bigkey,热点
+> mysql数据库分区。
+> 为什么要用多线程
+> 着重复习持久化，AOF写入流程
+> redis平滑数据迁移 https://blog.csdn.net/qq_16063307/article/details/102928217
+
+
+
+
 - save，aof，rdb
 1. redis为什么这么快
 - 存在内存中
@@ -60,7 +72,7 @@ Redis 后续版本又支持四种数据类型，它们的应用场景如下：
 - list--quicklist
 - hash--hash，listpack
 - set--hash，整数集合
-- zset--跳表
+- zset--跳表skiplist，ziplist
 - hyperloglog--伯努利实验
 - bitmap--二进制
 # 数据结构

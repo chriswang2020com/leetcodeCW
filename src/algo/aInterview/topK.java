@@ -2,7 +2,6 @@ package algo.aInterview;
 import java.util.*;
 public class topK {
 
-
     public static void main(String[] args) {
         int[] nums = {1,1,1,2,2,3};
         int k = 2;

@@ -1,12 +1,15 @@
 redis数据结构：https://blog.csdn.net/shark_chili3007/article/details/104171986
 todo：
 > redis事务？布隆过滤器。缓存机制读写穿透，
-> zset，ziplist
+> zset，ziplist 已完成
 > redis健壮性
 > bigkey,热点
 > mysql数据库分区。
 > 为什么要用多线程
 > 着重复习持久化，AOF写入流程
+> redis平滑数据迁移 https://blog.csdn.net/qq_16063307/article/details/102928217
+
+
 
 
 - save，aof，rdb
@@ -34,7 +37,7 @@ memcashed和redis，都基于内存性能高，有过期策略。memcached只支
 ## redis应用
 Redis 五种数据类型的应用场景：
 
-- **String** 类型的应用场景：缓存对象、常规计数、分布式锁、共享session信息等。
+- **String** 类型的应用场景：存token，缓存对象、常规计数、分布式锁、共享session信息等。
 - **List** 类型的应用场景：消息队列（有两个问题：1. 生产者需要自行实现全局唯一 ID；2. 不能以消费组形式消费数据）等。
 - **Hash** 类型的应用场景：缓存对象、购物车等。
 - **Set** 类型的应用场景：聚合计算（并集、交集、差集）场景，比如点赞、共同关注、抽奖活动等。
@@ -69,7 +72,7 @@ Redis 后续版本又支持四种数据类型，它们的应用场景如下：
 - list--quicklist
 - hash--hash，listpack
 - set--hash，整数集合
-- zset--跳表
+- zset--跳表skiplist，ziplist
 - hyperloglog--伯努利实验
 - bitmap--二进制
 # 数据结构

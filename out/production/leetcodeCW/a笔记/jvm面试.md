@@ -1,19 +1,23 @@
 创建string的方式和区别:https://blog.csdn.net/yuiop123455/article/details/107242285
 jvm详解：https://cloud.tencent.com/developer/article/2045898
-
+gc优化：https://tech.meituan.com/2017/12/29/jvm-optimize.html
+todo：
+1. linux语句，docker语句
+2. 阅读gc优化
 我的笔试：
 1. 如何把方法区撑爆，如何使电脑锁死
-不断创建对象引用，引用了不会GC，o = new Object[] {o};
+> 不断创建对象引用，引用了不会GC，o = new Object[] {o};
 
+2. 类加载过程
+> - 加载，连接（验证，准备，解析），初始化
+> - 加载过程： 根据类名获取class字节码信息。包括动态代理时的加载。
+> - 连接：1. 验证格式，2. 准备：方法区内存分配，静态变量 3. 解析：常量池内的地址解析成具体内容
+> - 初始化：赋值，执行java程序代码。
 
+3. 破坏双亲委派
+- tomcat需要部署多个应用，需要加载多个相同的类，为每个web容器单独提供一个WebAppClassLoader加载器。
 
-scala，java，groovy编译为字节码，被类加载子系统进入内存，jvm指令
-执行引擎：有解释器，jit编译器翻成机器语言，垃圾回收器，处理方法区
-执行区：本地方法栈，java方法栈，方法区，堆，程序计数器
-
-类加载子系统：加载；验证class文件是否正确，为static分配内存，解析符号引用为直接引用；初始化
-
-双亲委派：1. 避免重复加载, 2. 保证安全性，bootstrap加载内部类不会被替换；ext可以加载向上试
+双亲委派：不直接加载，而是交给父加载器加载。1. 避免重复加载, 2. 保证安全性，bootstrap加载内部类不会被替换；
 ```agsl
 Bootstrap ClassLoader ，主要负责加载Java核心类库，%JRE_HOME%\lib下的rt.jar、resources.jar、charsets.jar和class等。
 Extention ClassLoader，主要负责加载目录%JRE_HOME%\lib\ext目录下的jar包和class文件。

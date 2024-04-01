@@ -11,7 +11,7 @@ import java.util.*;
 public class sorting {
   public static void main(String[] args){
     int[] arr = {10,8,9,7,6,5,4,3,2,1};
-    heapSort(arr);
+    quickSort(arr);
     System.out.println("堆排" +Arrays.toString(arr));
   }
 
@@ -30,6 +30,20 @@ public class sorting {
     swap(arr, l, left);
     quickSort(arr, left, l-1);
     quickSort(arr, l+1, right);
+  }
+
+  static void quickSort1(int[] arr) {quickSort1(arr, 0, arr.length - 1);}
+  static void quickSort1(int[] arr, int left, int right){
+    if (left > right) return;
+    int l = left, r = right, pivot = arr[left];
+    while (l < r){
+      while (l < r && arr[r] >= pivot) r--;
+      while (l < r && arr[l] <= pivot) l++;
+      swap(arr, l,r);
+    }
+    swap(arr, l, left);
+    quickSort1(arr, left, l-1);
+    quickSort1(arr, l + 1, right);
   }
 
   private static void swap(int[] arr, int i, int j){

@@ -12,3 +12,5 @@
 - token：加密用户名cookie，隐藏了密码，header，payload，signature
 - cookie存在浏览器
 - session存在服务器
+
+token采用payload存储用户身份信息，signature存储加密部分，用header表明的算法进行加密，服务端负责签名不需要存储sessionid

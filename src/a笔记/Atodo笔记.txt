@@ -1,4 +1,23 @@
 # todo list
+3/19
+1. leetcode 10题
+2. sharding-jdbc，minio
+3. 线程池实战，completable-future
+4. RBAC模型
+5. 削峰操作
+6. mysql mvcc
+
+
+
+
+// 知识储备
+> hashset, hashmap原理
+> mvcc acid
+> REDIS 持久化，线程模型，缓存机制
+
+// 找工作
+华为+未来
+
 redis listpack, 场景
 ！！！！网络，websocket 已完成
 八股部分
