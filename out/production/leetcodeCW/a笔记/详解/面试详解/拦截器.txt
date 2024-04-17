@@ -1,0 +1,15 @@
+流程
+filter-》servlet->interceptor->controller
+自己写一个：https://www.bilibili.com/video/BV1Fv421173q/?spm_id_from=333.337.search-card.all.click&vd_source=e9ee163a0843e95b21c5d6cf1d4a1c42
+
+过滤器所需
+1. 实现jakarta.servlet.Filter接口
+2. dofilter
+
+拦截器所需
+1. handlerInterceptor接口
+2. prehandle，posthandler，afterCompletion
+3. 配置类重写addinterceptors方法
+
+监控器
+

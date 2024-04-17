@@ -3,7 +3,12 @@
 > 在这个项目中核心用到了websocket协议实现全双工双向通讯，实现了本地和网盘的实时同步。
 >  jwt
 > 外部覆盖springboot
-遇到的问题以及如何解决
+1. 遇到的问题以及如何解决
+2. 反问问题
+> 岗位主要职责
+> 对求职者的期待
+> 有什么技能是这个岗位特别需要熟悉的
+
 
 分库分表文章：https://ost.51cto.com/posts/11624
 sharding-db实战好文：https://www.cnblogs.com/makemylife/p/17165226.html

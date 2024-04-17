@@ -2,5 +2,5 @@
 
 作者：王正宏
 日常leetcode刷题记录
-wechat：id6087702732
-邮箱：chris3352754895@gmail.com
+wechat：zwang2654
+邮箱：zwang2654@wisc.edu

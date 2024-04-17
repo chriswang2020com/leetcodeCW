@@ -1,0 +1,2 @@
+黑名单：https://cloud.tencent.com/developer/article/2384600
+设计模式：https://www.runoob.com/design-pattern/design-pattern-intro.html

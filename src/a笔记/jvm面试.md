@@ -64,9 +64,14 @@ NullPointerException、OutOfMemoryError） ，系统类加载器。
 
 
 ## 具体案例
-CMS：标记清除，低暂停，stw时间短，老年代，低暂停
+CMS：标记清除，低暂停，标记期间stw时间短，老年代，低暂停
 Serial Old：老年代，stw，标记整理
 parallel GC：新生代，stw，复制算法
 G1：整堆，分区算法，把eden，old做成多个region，eden满就清eden，mixedgc老年代占比高，回收新生代，大对象。fullgc：如果mixed复制算法内存不够，触发stw，用一次serialgc，标记整理算法。
 ZGC：整堆，分页算法
+
+Serial系列 复制算法清理新生代STW，老年代整理算法STW
+Parallel系列：serial加上并行
+CMS：初始标记stw，再并发标记慢慢标引用，再重新标记更改的，再并发清理：https://juejin.cn/post/6926365727700189198
+G1：
 
