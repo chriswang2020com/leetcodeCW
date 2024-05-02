@@ -4,52 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea 4/1/2024">
-      <change afterPath="$PROJECT_DIR$/src/algo/a100/Solution34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/a100/Solution442.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/aInterview/SolutionMeituan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algo/aInterview/ali416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/MySQL高级.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/OOM问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java设计特点.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java锁.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/幂等.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/拦截器.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/线程池.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/面试综合.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/a面经/411阿里电话面" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea 4/17/2024">
+      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/Spring注解篇.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution70.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution70.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/topK.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/topK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a算法笔记/动态规划.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a算法笔记/动态规划.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/arraylist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/arraylist/removeElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/a项目面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/a项目面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/java面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/java面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/jvm面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/jvm面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/redis面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/redis面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/网络面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeCW/a笔记/网络面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/dp/Solution17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/dp/letterCombinations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/redis/redisBasic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/aInterview/topK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algo/aInterview/topK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/arraylist/arraylist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/arraylist/removeElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algo/dp/letterCombinations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/a项目面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/a项目面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/java面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/java面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/jvm面试.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/jvm面试.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/IO.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/IO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/RocketMQ.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/RocketMQ.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/Springboot.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/Springboot.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/redis.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/综合问题.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redis/redisBasic.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java设计特点.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/java/java设计特点.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java锁.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/java/java锁.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/mybatis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/mybatis.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +79,7 @@
       <recent name="D:\projects\javabasics\leetcodeCW\src\cwCollections\OOP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\javabasics\leetcodeCW\src\a笔记\详解\java" />
       <recent name="D:\projects\javabasics\leetcodeCW\resources\pdfs" />
       <recent name="D:\projects\javabasics\leetcodeCW\src\cwCollections\threading" />
     </key>
@@ -261,7 +222,11 @@
       <workItem from="1712919803248" duration="1816000" />
       <workItem from="1713180816824" duration="1036000" />
       <workItem from="1713242397357" duration="5611000" />
-      <workItem from="1713314782113" duration="628000" />
+      <workItem from="1713314782113" duration="4238000" />
+      <workItem from="1713409303515" duration="3833000" />
+      <workItem from="1714018904954" duration="1263000" />
+      <workItem from="1714316616767" duration="702000" />
+      <workItem from="1714355044491" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="cw">
       <created>1678496251724</created>
@@ -478,7 +443,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711947611640</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="pushed from idea 4/17/2024">
+      <option name="closed" value="true" />
+      <created>1713315728756</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713315728756</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +477,8 @@
     <MESSAGE value="pushed from idea" />
     <MESSAGE value="pushed from idea 3/4/2024" />
     <MESSAGE value="pushed from idea 4/1/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="pushed from idea 4/1/2024" />
+    <MESSAGE value="pushed from idea 4/17/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushed from idea 4/17/2024" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

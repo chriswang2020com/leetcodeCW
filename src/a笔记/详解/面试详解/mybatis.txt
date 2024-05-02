@@ -1,0 +1,42 @@
+public class User {
+    @TableId(type = IdType.ASSIGN_ID,value = "id")//枚举注解,使用ID_WORKER策略,全局唯一ID，数据库设置自增也没用
+    private Long id;
+    private String name;
+    private Integer age;
+    private String email;
+}
+
+
+@Repository
+public interface UserMapper extends BaseMapper<User> {
+@Autowired
+private UserMapper userMapper;
+
+@Test
+void contextLoads() {
+    System.out.println(("----- selectAll method test 测试查询所有用户方法 ------"));
+    //selectList 的参数wrapper 是条件构造器，可以先写null
+    List<User> userList = userMapper.selectList(null);
+
+   //查询一个复杂的，比如查询用户name、邮箱不为空，年龄大于20的用户
+    QueryWrapper<User> wrapper = new QueryWrapper<>(); //首先新建一个 QueryWrapper
+    //链式编程 添加查询条件
+    wrapper.isNotNull("name")
+            .eq("email","2455555659@qq.com")
+            .ge("age",12);
+
+    userMapper.selectList(wrapper)
+}
+
+// 分页跨表查
+@Mapper
+public interface UserMapper extends BaseMapper<User> {
+    IPage<UserVO> findByPage(Page<UserVO> page, @Param("dto") UserInfoPageDTO dto);
+}
+// resultmap作用，把读取的数据转为vo
+<resultMap id="page_user_vo" type="com.up.openfeign.api.user.vo.UserVO">
+ <select id="findByPage" resultMap="page_user_vo" parameterType="com.up.openfeign.api.user.dto.UserInfoPageDTO">
+
+<result> 用于一对一的映射，每个结果列映射到一个简单属性。
+ <collection> 标签用于定义一个复杂的属性映射，这个属性是一个集合，表示一对多的关系。
+ 使用这个标签可以将查询结果的一部分映射到某个属性，这个属性是一个包含多个对象的集合。
