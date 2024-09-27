@@ -5,11 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ca5ef7-5209-4f42-841e-90b316115610" name="Changes" comment="pushed from idea 4/17/2024">
-      <change afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/Spring注解篇.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java设计特点.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/java/java设计特点.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/java锁.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/java/java锁.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/a笔记/详解/面试详解/mybatis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/a笔记/详解/面试详解/mybatis.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/FixedThreadPoolExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/StackStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/StackStructure/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution128.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution322.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution442.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution70.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/Solution70a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/a100/generalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/LRUCache$DLinkedNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/SolutionMeituan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/SolutionTencent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/ali416.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/algo/aInterview/topK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution100.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution110.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution199.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution235.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solution99.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/Solutionpre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/isBalanced.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/isSameTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/isSymmetric101.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/lowestCommonAncestor235.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/recoverTree99.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/rightSideView199.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/binary/validBST/validateBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/OOP/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/OOP/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/dataStru/lsqmTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/io/CharBufferDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ReentrantSpinLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ReentrantSpinLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ThreadLocalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ThreadSafe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ThreadSafe$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/ThreadSafe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/joinDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/joinDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/joinDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/joinDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/myThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/cwCollections/threading/runDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/include/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/include/TreeNode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/include/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/linkList/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/linkList/detectCycle142.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/interviewCoding/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/interviewCoding/bookStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/interviewCoding/studentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/staticDemo/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/staticDemo/Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/staticDemo/array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/staticDemo/staticDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/org/example/types.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/sorting/sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/splitString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/string/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/string/isPalindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/stringtest/strbuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/testEnv/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/twoPointer/Solution15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/twoPointer/Solution167.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/twoPointer/threeSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeCW/twoPointer/twoSum.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +166,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.sorting">
+  <component name="RunManager" selected="Application.generalTest">
+    <configuration name="generalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.a100.generalTest" />
+      <module name="leetcodeCW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.a100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorting.sorting" />
       <module name="leetcodeCW" />
@@ -121,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.generalTest" />
         <item itemvalue="Application.sorting" />
       </list>
     </recent_temporary>
